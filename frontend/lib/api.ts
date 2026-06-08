@@ -5,6 +5,13 @@ const API_URL = process.env.NEXT_PUBLIC_API_URL;
 async function getAuthHeaders(): Promise<HeadersInit> {
   const { data } = await supabase.auth.getSession();
   const token = data.session?.access_token;
+
+  console.log("MY MYSTERY TOKEN:", token);
+
+  // if (typeof window !== "undefined") {
+  //     alert("MY TOKEN IS: " + token);
+  // }
+  // throw new Error("STOP EVERYTHING. THE TOKEN IS: " + token);
   if (!token) throw new Error("Not authenticated");
   return {
     "Content-Type": "application/json",
