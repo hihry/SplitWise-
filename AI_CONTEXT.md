@@ -653,7 +653,7 @@ All files are production-ready and wired together. Nothing is a stub.
 ### Frontend
 - `package.json`, `next.config.js`, `tailwind.config.js`, `tsconfig.json`, `postcss.config.js`
 - `app/globals.css` — utility classes (card, btn-primary, input, badge)
-- `app/layout.tsx` — root: Geist font, QueryProvider, AuthProvider, Toaster
+- `app/layout.tsx` — root: Inter font, QueryProvider, AuthProvider, Toaster
 - `app/page.tsx` — redirect / → /dashboard
 - `app/(auth)/layout.tsx`, `login/page.tsx`, `register/page.tsx`
 - `app/(app)/layout.tsx` — sidebar + auth guard
