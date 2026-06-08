@@ -52,7 +52,7 @@ The `AI_CONTEXT.md` file in this repo documents every architectural decision, tr
 ## Project Structure
 
 ```
-splitwise-clone/
+SplitWise-/
 ├── AI_CONTEXT.md          ← Source of truth for all decisions
 ├── BUILD_PLAN.md          ← Product research, architecture, tradeoffs
 ├── database/
@@ -92,8 +92,8 @@ splitwise-clone/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/splitwise-clone.git
-cd splitwise-clone
+git clone https://github.com/your-username/SplitWise-.git
+cd SplitWise-
 ```
 
 ### 2. Set up Supabase
